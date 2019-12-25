@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-image: url("digital-clock-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container{
+    margin-left: 400px;
+    margin-top: 90px;
+}
+.clock{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin:10px auto;
+}
+.time{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 40px 50px;
+    opacity: 0.8;
+    color: white;
+}
+span:first-child{
+    font-size: 40px;
+}
+.hours{
+    height: 200px; 
+    width: 150px;
+    border: 1px solid green;
+    background: linear-gradient(45deg, rgb(171,30,1),rgb(240, 54, 178));
+    -webkit-box-reflect: below;
+}
+.minutes{
+    height: 200px;
+    width: 150px;
+    border: 1px solid green;
+    background: linear-gradient(45deg, rgb(171,30,1),rgba(65, 92, 16, 0.747));
+    -webkit-box-reflect: below;
+
+}
+.seconds{
+    height: 200px;
+    width: 150px;
+    border: 1px solid green;
+    background: linear-gradient(45deg, rgb(171,30,1),rgb(55, 216, 34));
+    -webkit-box-reflect: below;
+}
+.alarm-label{
+    color: darkorange;
+    font-size: 30px;
+}
